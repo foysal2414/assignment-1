@@ -5,6 +5,7 @@ body{
     background-color: #F5F5F5;
     margin-left:160px ;  
     margin-right:160px ;
+
 }
 
 .nav-bar{
@@ -171,6 +172,35 @@ padding-left: 30px;
 padding-bottom:50px;
 }
 
- 
+/* opinion section */
+
+.opinion-heading{
+    font-size: 40px;
+    color: #0E0E0E;
+    padding-top: 40px;
+}
+.opinion-container{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 30px;
+}
+.opinion-title{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    font-weight:600px;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.op-1{
+    display: flex;
+    justify-content: space-between;
+}
+.opinion-select{
+    padding-top: 20px;
+    gap: 10px;
+}
+
 
 
