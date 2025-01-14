@@ -71,7 +71,6 @@ gap: 64px;
     border-radius: 25px;
     width: 305px;
     height: 250px;
-    /* justify-content:center; */
 }
 .pillars-img{
     width: 60px;
@@ -90,8 +89,88 @@ gap: 64px;
     font-size:16px ;
     color: #0E0E0E;
     padding:0px 24px 24px 24px ;
+}
+
+/* main section- vision style */
+
+.vision-heading{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.vision{
+    display: flex;
+    margin-top: 35px; ;
+    margin-bottom: 80px ;
+    gap: 30px;
+}
+.vision-container{
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 25px;
+    width: 415px;
+    
+}
+.vision-img{
+    width: 60px;
+    /* height: 60px; */
+    padding: 24px 0px 10px 24px ;
+}
+.vision-title{
+    font-size: 20px;
+    font-weight:bold;
+    color: #0E0E0E;
+    width: 250px;
+    /* height: 25px; */
+    padding:0px 20px ;
+}
+.vision-description{
+    font-size:16px ;
+    color: #0E0E0E;
+    padding:0px 24px 24px 24px ;
+}
+.color-2{
+        background-color:#C6E4D6 ;
+    }
+.color-3{
+    background-color: #F7EBCF;
+}
+.vision-btn,{
+   padding: 30px ;
+}
+.btn-1{
+  background-color: #5490F5;
+}
+
+/* quote section */
+
+.quote-banner{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    background-image: url(quote-bg.png);
+    background-repeat: no-repeat;
+    /* padding: 20px; */
+    /* padding-left: 30px; */
+    background-position:initial ;
+}
+.quote-description{
+    padding-left: 30px;
+    padding-top: 25px;
 
 }
+.advisor-name{
+    padding-left:30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0E0E0E;
+  
+}
+.advisor{
+font-size: 16px;
+color: #0E0E0E;
+padding-left: 30px;
+padding-bottom:50px;
+}
+
  
 
 
