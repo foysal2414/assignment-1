@@ -88,7 +88,7 @@ gap: 64px;
 }
 .pillers-description{
     font-size:16px ;
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 0.5);  
     padding:0px 24px 24px 24px ;
 }
 
@@ -126,8 +126,8 @@ gap: 64px;
 }
 .vision-description{
     font-size:16px ;
-    color: #0E0E0E;
-    padding:0px 24px 24px 24px ;
+    color: rgba(14, 14, 14, 0.5);  
+    padding:0px 24px 24px 20px ;
 }
 .color-2{
         background-color:#C6E4D6 ;
@@ -156,6 +156,7 @@ gap: 64px;
 .quote-description{
     padding-left: 30px;
     padding-top: 25px;
+    color: rgba(14, 14, 14, 0.5);
 
 }
 .advisor-name{
@@ -167,7 +168,7 @@ gap: 64px;
 }
 .advisor{
 font-size: 16px;
-color: #0E0E0E;
+color: rgba(14, 14, 14, 0.5);
 padding-left: 30px;
 padding-bottom:50px;
 }
@@ -202,5 +203,63 @@ padding-bottom:50px;
     gap: 10px;
 }
 
+/* satelite section */
 
+.satelite-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.5);;
+}
+.satelite-banner{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    margin-bottom: 20px;
+   
+    
+}
+.satelite-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.satelite-container{
+     padding: 30px;
+     gap: 5px;
+}
+.stelite-btn{
+    background-color: #006A50;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+.satelite-img{
+    padding: 48px;
+    width: 400px;
+   border-radius: 20px;
+   align-content: left: ;  
+}
 
+/* donate section */
+
+.donate-title{
+    font-size: 40px;
+    color: #0E0E0E;
+    padding-top: 40px;
+    text-align: center;
+}
+.donate-discreaption{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.5);
+}
+.donate-container{
+   display: flex;
+   justify-content: space-around;
+}
+.donate{
+    background-color: #FFFFFF;
+    font-size: 30px;
+}
+.donate-color{
+    background-color: #C6E4D6;
+}
