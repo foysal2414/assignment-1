@@ -278,8 +278,7 @@ padding-bottom:50px;
     font-weight: bold;
     color:rgba(14, 14, 14, 0.8) ;
     padding: 20px;
-    border: none;
-    
+    border: none;   
 }
 .donate-color{
     background-color: #C6E4D6;
@@ -345,3 +344,37 @@ padding-bottom:50px;
     font-size:30px;
     font-weight: bold;
 }
+
+/* hover effect */
+
+.donate:hover{
+    background-color: gray;
+    cursor: pointer;  
+}
+.ban-btn:hover{
+    background-color: gray;
+    cursor: pointer;  
+}
+.nav-btn:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.vision-btn:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.stelite-btn:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: gray;
+    cursor: pointer; 
+}
+.suscribe-btn-2:hover{
+    background-color: gray;
+    cursor: pointer; 
+}
+
+
+   
