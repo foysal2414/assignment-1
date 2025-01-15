@@ -113,7 +113,6 @@ gap: 64px;
 }
 .vision-img{
     width: 60px;
-    /* height: 60px; */
     padding: 24px 0px 10px 24px ;
 }
 .vision-title{
@@ -121,7 +120,6 @@ gap: 64px;
     font-weight:bold;
     color: #0E0E0E;
     width: 250px;
-    /* height: 25px; */
     padding:0px 20px ;
 }
 .vision-description{
@@ -135,12 +133,22 @@ gap: 64px;
 .color-3{
     background-color: #F7EBCF;
 }
-.vision-btn,{
-   padding: 30px ;
+.vision-btn{
+    margin: 30px;
+   padding: 10px;
+   border-radius: 5px;
+   font-size:13px;
+   color: #FFFFFF;
 }
 .btn-1{
   background-color: #5490F5;
 }
+.btn-2{
+    background-color: #09A15C
+  }
+  .btn-3{
+    background-color: #FFC239
+  }
 
 /* quote section */
 
@@ -149,9 +157,8 @@ gap: 64px;
     border-radius: 16px;
     background-image: url(quote-bg.png);
     background-repeat: no-repeat;
-    /* padding: 20px; */
-    /* padding-left: 30px; */
-    background-position:initial ;
+    /* background-attachment: fixed; */
+    background-position:10px 0px;
 }
 .quote-description{
     padding-left: 30px;
@@ -214,8 +221,14 @@ padding-bottom:50px;
     background-color: #FFFFFF;
     border-radius: 24px;
     margin-bottom: 20px;
-   
-    
+      
+}
+.satelite-banner-2{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    margin-bottom: 20px;
+    flex-direction: row-reverse;
 }
 .satelite-title{
     font-size: 32px;
@@ -237,7 +250,7 @@ padding-bottom:50px;
     padding: 48px;
     width: 400px;
    border-radius: 20px;
-   align-content: left: ;  
+    
 }
 
 /* donate section */
