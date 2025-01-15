@@ -251,15 +251,84 @@ padding-bottom:50px;
 .donate-discreaption{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.5);
+    text-align: center;
 }
 .donate-container{
    display: flex;
    justify-content: space-around;
+  
 }
 .donate{
     background-color: #FFFFFF;
+    border-radius:16px;
     font-size: 30px;
+    font-weight: bold;
+    color:rgba(14, 14, 14, 0.8) ;
+    padding: 20px;
+    border: none;
+    
 }
 .donate-color{
     background-color: #C6E4D6;
+}
+.donate-btn{
+    text-align: center;
+}
+.text{
+    width: 600px;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.btn{
+    background-color: #006A50;
+    padding: 10px;
+    font-size: 10px;
+    color: #FFFFFF;
+    border-radius: 5px;
+
+}
+
+/* footer section */
+.suscribe-banner{
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #C6E4D6
+    
+    
+}
+.heading{
+    font-size:40px;
+    font-weight: bold;
+}
+.suscribe-title{
+    font-size: 16px;
+    color:rgba(14, 14, 14, 0.5); ;
+}
+.suscribe-btn{
+    width: 600px;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.suscribe-btn-2{
+    background-color: #006A50;
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.span{
+    color:rgba(14, 14, 14, 0.8)  ;
+}
+.last{
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
 }
